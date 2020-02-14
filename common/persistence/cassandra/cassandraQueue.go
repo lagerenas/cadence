@@ -175,6 +175,10 @@ func (q *cassandraQueue) tryEnqueue(
 	return nil
 }
 
+func (q *cassandraQueue) GetMaxMessageIDFromDLQ() (int, error) {
+	return q.getLastMessageID(q.getDLQTypeFromQueueType())
+}
+
 func (q *cassandraQueue) getLastMessageID(
 	queueType common.QueueType,
 ) (int, error) {

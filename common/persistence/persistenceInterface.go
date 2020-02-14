@@ -150,6 +150,7 @@ type (
 		RangeDeleteMessagesFromDLQ(firstMessageID int, lastMessageID int) error
 		UpdateDLQAckLevel(messageID int, clusterName string) error
 		GetDLQAckLevels() (map[string]int, error)
+		GetMaxMessageIDFromDLQ() (int, error)
 	}
 
 	// QueueMessage is the message that stores in the queue

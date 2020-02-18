@@ -73,22 +73,25 @@ require (
 	github.com/valyala/fastjson v1.4.1
 	github.com/xwb1989/sqlparser v0.0.0-20180606152119-120387863bf2
 	go.opencensus.io v0.22.2 // indirect
-	go.uber.org/atomic v1.5.1
+	go.uber.org/atomic v1.4.0
 	go.uber.org/cadence v0.9.0
 	go.uber.org/dig v1.7.0 // indirect
 	go.uber.org/fx v1.9.0 // indirect
 	go.uber.org/goleak v0.10.0 // indirect
-	go.uber.org/multierr v1.3.0
+	go.uber.org/multierr v1.2.0
 	go.uber.org/net/metrics v1.2.0 // indirect
 	go.uber.org/thriftrw v1.20.2
+	go.uber.org/tools v0.0.0-20190618225709-2cfd321de3ee // indirect
 	go.uber.org/yarpc v1.42.0
-	go.uber.org/zap v1.12.0
+	go.uber.org/zap v1.11.0
 	golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550 // indirect
+	golang.org/x/lint v0.0.0-20190930215403-16217165b5de // indirect
 	golang.org/x/net v0.0.0-20200114155413-6afb5195e5aa
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 	golang.org/x/sys v0.0.0-20191029155521-f43be2a4598c // indirect
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
-	golang.org/x/tools v0.0.0-20191101175824-a860bcda08c7
+	golang.org/x/tools v0.0.0-20190802003818-e9bb7d36c060
+	golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7 // indirect
 	google.golang.org/api v0.14.0
 	google.golang.org/appengine v1.6.1 // indirect
 	google.golang.org/grpc v1.23.1 // indirect
@@ -96,6 +99,7 @@ require (
 	gopkg.in/jcmturner/gokrb5.v7 v7.3.0 // indirect
 	gopkg.in/validator.v2 v2.0.0-20180514200540-135c24b11c19
 	gopkg.in/yaml.v2 v2.2.2
+	honnef.co/go/tools v0.0.1-2019.2.3 // indirect
 )
 
 // TODO https://github.com/uber/cadence/issues/2863

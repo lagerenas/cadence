@@ -21,7 +21,7 @@ url: "https://cadenceworkflow.io" # the base hostname & protocol for your site, 
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 sass:

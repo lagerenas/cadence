@@ -16,8 +16,8 @@
 title: Cadence
 email: cadence-group@uber.com
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cadenceworkflow.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/cadence" # the subpath of your site, e.g. /blog
+url: "https://lagerenas.github.io/cadence" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown

@@ -13,3 +13,7 @@ If you have a feature request or a bug to report file an issue against one of th
 * [Cadence Java Client Samples](https://github.com/uber/cadence-java-samples)
 * [Cadence Web UI](https://github.com/uber/cadence-web)
 
+## Contributing
+All of our github repositories accept pull requests. Please follow the directions in the repo's CONTRIBUTING.md file. 
+
+To contribute to the documentation on this site checkout the gh-pages branch of the main [Cadence Service repo](https://github.com/uber/cadence/tree/gh-pages)
